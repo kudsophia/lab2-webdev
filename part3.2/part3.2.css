@@ -1,11 +1,11 @@
-.letter{
-  color: green;
+p.letter:first-letter{
+  color: #333366;
   font-size: 200%;
   font-family: serif;
   position: relative;
 }
 h1 {
-   font-size: 90%;
+   font-size: 100%;
    font-family: Verdana, Arial, Helvetica, sans-serif;
-   color: #333365;
+   color: #333366;
  }

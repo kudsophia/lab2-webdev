@@ -1,0 +1,32 @@
+p.letter:first-letter{
+  color: #333366;
+  font-size: 200%;
+  font-family: serif;
+  position: relative;
+}
+h1 {
+   font-size: 150%;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   color: #333366;
+ }
+body { margin: 5%;
+}
+article p {color: black;
+}
+#line{
+  width: auto;
+}
+p.https:active{
+  color: crimson;
+}
+.photo{
+  border-style: dotted;
+  border-color: cadetblue;
+  border-width: 2px;
+  padding: 4px;
+  border-right-style: hidden;
+  border-left-style: hidden;
+
+}
+
+

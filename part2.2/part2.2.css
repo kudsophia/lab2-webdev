@@ -1,0 +1,38 @@
+table > blockquote {
+  text-indent: 3em
+}
+table.mp{
+  margin-right: 20%;
+}
+h1 {
+  font-size: 150%;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #333366;
+}
+strong[class="title"]{
+  color: cadetblue;
+}
+var[class ^= noteditorial]{
+  font-family: "Academy Engraved LET";
+  word-spacing: normal;
+}
+input:enabled {
+  color: cadetblue;
+}
+input:disabled {
+  color: #333366;
+}
+table[class^=mp]{
+  background-color: rgba(95, 158, 160, 0.16);
+  margin-top: 40px;
+  margin-left: 125px;
+  border-style: none
+
+}
+table.mp{
+  margin-left: 300px;
+  border-style: groove;
+  border-color: cornflowerblue;
+  border-width: thin;
+
+}

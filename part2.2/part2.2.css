@@ -32,7 +32,15 @@ table[class^=mp]{
 table.mp{
   margin-left: 300px;
   border-style: groove;
-  border-color: cornflowerblue;
+  border-color: cadetblue;
   border-width: thin;
+
+}
+
+  .termin {
+    display: inline-table;
+    border: 1px dashed #2298b2;
+    padding-right: 4px;
+    height: 10%;
 
 }

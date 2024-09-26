@@ -1,0 +1,55 @@
+h3[class=heads]{
+  color: royalblue
+}
+body
+{
+  margin: 1em
+}
+.compelerno:lang(ua){
+  quotes: '"' '"'}
+
+body.h3:first-child{
+  font-size: 100%
+}
+p.first-line:first-line{
+  color: cadetblue;
+}
+h3[class^="heads"]:before{
+  content: '• ';
+  color: royalblue;
+}
+#box1{
+  background-color: rgba(95, 158, 160, 0.16);
+  border: 1px solid;
+  border-color: cornflowerblue;
+  border-bottom-width: 3px;
+  border-right-width: 3px;
+  border-right-color: cadetblue;
+  border-bottom-color: cadetblue;
+  padding-left: 30px;
+}
+.textile div{
+  border: 1px solid rgba(201, 245, 253, 0.65);
+  padding: 10px;
+  display: flex;
+}
+.textile{
+  display: flex;
+  margin: 30px;
+  align-items: center;
+}
+.t1{
+  margin-right: 40px;
+  height: 300px;
+  width: 200px;
+  overflow: auto;
+  outline-color: white;
+}
+.t2{
+  margin-left: 40px;
+  height: 300px;
+  width: 200px;
+  overflow: visible;
+  clip: rect(10px, 5px, 10px, 5px)
+
+}
